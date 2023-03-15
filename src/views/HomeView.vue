@@ -1,16 +1,16 @@
 <template>
   <div class="home">
     <h1>This is a Home page</h1>
-    <SearchBar />
+    <Datepicker />
   </div>
 </template>
 
 <script>
-import SearchBar from '@/components/SearchBar/SearchBar.vue'
+import Datepicker from '@/components/DatePicker/DatePicker.vue';
 
 export default {
   components: {
-    SearchBar
+    Datepicker
   }
 }
 </script>
