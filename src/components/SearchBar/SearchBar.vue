@@ -1,20 +1,26 @@
-
 <template>
-  <div class = "WhereTo">
+  <div class="WhereTo">
     <v-combobox
       label="Where to?"
       :items="options"
+      v-model="selectedOption"
     ></v-combobox>
   </div>
 </template>
 
 <script>
 export default {
-   data: () => ({
-      options: [
+  data: () => ({
+    options: [
       'California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming'
-      ],
+    ],
+    selectedOption: null
   }),
+  watch: {
+    selectedOption(newVal) {
+      console.log(newVal);
+    }
+  }
 }
 </script>
 
