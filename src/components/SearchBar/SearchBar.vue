@@ -4,6 +4,7 @@
       label="Where to?"
       :items="options"
       v-model="selectedOption"
+      placeholder="Eg. Paris, Singapore, Japan"
     ></v-combobox>
   </div>
 </template>
