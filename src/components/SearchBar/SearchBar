@@ -7,9 +7,12 @@
       placeholder="Eg. Paris, Singapore, Japan"
     ></v-combobox>
   </div>
+
 </template>
 
 <script>
+import { mdiMapMarker } from '@mdi/js';
+
 export default {
   data: () => ({
     options: [
@@ -31,4 +34,3 @@ export default {
   margin:auto;
 }
 </style>
-
