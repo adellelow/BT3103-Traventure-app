@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { mdiMapMarker } from '@mdi/js';
+// import { mdiMapMarker } from '@mdi/js';
 
 export default {
   data: () => ({
